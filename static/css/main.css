@@ -1,0 +1,312 @@
+* {
+font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+img.resize {
+    max-width: 100%;
+    height: auto;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+a.help:link, a.help:visited {
+    color: blue;
+}
+
+.bigCell {
+    width: 40%;
+    text-align: left;
+    font-weight: normal;
+}
+
+#navBar {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: collapse;
+    background-color: #282828;
+    color: gray;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#mainTable {
+    table-layout: fixed;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: rgb(62, 62, 62);    
+    font-size: 225%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#mainTable th {
+    text-align: center;
+}
+
+#description {
+    table-layout: fixed;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: rgb(62, 62, 62);    
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#description td {
+    word-wrap: break-word;
+}
+
+#cadastroInput {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: rgb(62, 62, 62);    
+    font-weight: bold;
+    text-align: center;
+}
+
+#cadastroInput th {
+    font-size: 175%;
+}
+
+#cadastroInput td {
+    font-size 125%;
+}    
+
+input[type="text"] {
+    width: 615px;
+    height: 30px;
+    font-size: 80%;
+}
+
+select, option {
+    width: 400px;
+    height: 30px;
+    font-size: 80%;
+    overflow: auto;
+}
+
+input[type="submit"], 
+input[type="reset"] {
+    -webkit-appeance: none;
+    font-size: 125%;
+    font-style: bold;
+    color: white;
+    width: 10%;
+    height: 40px;
+    background-color: rgb(62, 62, 62);
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+.button:hover
+{
+    background-color: gray;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+input[type="date"] {
+    -webkit-appeance: none;
+    width: 10%;
+    height: 30px;
+    font-size: 80%;
+    font-style: bold;
+}
+
+input[type="number"] {
+    -webkit-appeance: none;
+    width: 3%;
+    height: 30px;
+    font-size: 80%;
+    font-style: bold;
+}
+
+#cadastroOutput {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: rgb(62, 62, 62);    
+    font-weight: bold;
+    text-align: center;
+}
+
+.dataframe{
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.dataframe th {
+    text-align: center;
+}
+
+.dataframe tr:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+#ajuda {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: rgb(62, 62, 62);    
+    font-weight: bold;
+    text-align: left;
+}
+
+#inicioAjuda {
+    text-align: center;
+}
+
+#sobre {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: rgb(62, 62, 62);    
+    font-weight: bold;
+    text-align: left;
+}
+
+.sobreCenter {
+    text-align: center;
+}
+
+#vinculosInput {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: rgb(62, 62, 62);    
+    font-weight: bold;
+    text-align: center;
+}
+
+#vinculosInput th {
+    font-size: 175%;
+}
+
+#vinculosInput td {
+    font-size 125%;
+}
+
+/* Adicionado para Mineracao */
+input[type="text"].min_small
+{
+  width: 50px;
+  font-size: 100%;
+  text-align: center;
+}
+
+input[type="text"].min_medio
+{
+  width: 120px;
+  font-size: 100%;
+  text-align: center;
+}
+
+input[type="text"].min_normal
+{
+    width: 300px;
+    height: 30px;
+    font-size: 80%;
+    text-align: center;
+}
+
+input[type="text"].min_email
+{
+    width: 250px;
+    height: 20px;
+    font-size: 80%;
+    text-align: center;
+}
+
+#mainMining {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: rgb(62, 62, 62);    
+    font-weight: bold;
+    text-align: center;
+}
+
+#mainMining td {
+    border-bottom: 1px solid #CECECE;
+}
+
+a.mining:link {
+    color: blue;
+}
+
+a.mining:visited {
+    color: blue;
+}
+
+#navBarmining {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: collapse;
+    background-color: white;
+    color: gray;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bigCellTop {
+    width: 20%;
+    text-align: left;
+    font-weight: normal;
+
+.bigCellmining {
+    width: 5%;
+    text-align: center;
+    font-weight: normal;
+}
+

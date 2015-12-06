@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>CATMAT</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="../static/css/main.css">
+    </head>
+    <body>
+        <table id="navBar">
+            <tr>
+                <td class="bigCell">
+                    &nbsp; Criado por <a href="http://thiagomarzagao.com/about">Thiago Marzagão</a>
+                </td>
+                <td class="bigCell">
+                    CATMATfinder
+                </td>
+                <td class="bigCell">
+                </td>
+            </tr>
+        </table>
+    <form method="POST">
+        <table id="vinculosInput">
+            <tr>
+                <td><br></td>
+            </tr> 
+            <tr>
+                <td>Descrição do produto licitado:</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="descricao" value="{{ descricao }}" style="width:30%"></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>           
+        </table>
+        <center>
+            <input type="submit" value="classificar">
+            {% if output %}
+            <table id="vinculosInput">
+                <tr>
+                    <td><br></td>
+                </tr> 
+                <tr>
+                    <td>Classes mais prováveis:</td>
+                </tr> 
+                <tr>
+                    <td>{{ classe1 }} {{ label1 }} {{ prob1 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ classe2 }} {{ label2 }} {{ prob2 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ classe3 }} {{ label3 }} {{ prob3 }}</td>
+                </tr>
+            {% endif %}
+            </table>
+        </center>
+    </form>
+</body>
+</html>
